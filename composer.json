@@ -1,0 +1,19 @@
+{
+    "name": "chacal/query-builder",
+    "description": "constroi query sql",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kaue Rodrigues",
+            "email": "kauemsc@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "QueryBuilder\\": "src"
+        }
+    }
+}
